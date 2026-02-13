@@ -5,6 +5,12 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.10"
 dependencies = [
+    "boto3>=1.42.48",
+    "onnx>=1.20.1",
+    "onnxslim>=0.1.84",
     "opencv-python==4.11.0.86",
+    "pexpect>=4.9.0",
+    "pygments>=2.19.2",
+    "tensorrt>=10.15.1.29",
     "ultralytics>=8.4.13",
 ]

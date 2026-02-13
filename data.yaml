@@ -1,9 +1,8 @@
-train: data/DS_ONLY_CAJAS/train
-val: data/DS_ONLY_CAJAS/val
-test: data/DS_ONLY_CAJAS/test
+train: data/DS_TWO_CLASS/train
+val: data/DS_TWO_CLASS/val
+test: data/DS_TWO_CLASS/test
 # Number of classes
-nc: 1
-
+nc: 2
 # Class names
 #names: ['caja', 'veta'] # 0->caja, 1->veta
-names: ['caja'] # 0->caja, 1->veta
+names: ['caja', 'veta'] # 0->caja, 1->veta
