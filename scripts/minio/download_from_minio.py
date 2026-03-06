@@ -20,7 +20,7 @@ BUCKET = "smartsorter-v2"
 MINIO_PREFIXES = ["cajas", "vetas", "Backgrounds"]
 
 # Carpeta destino local (se crea si no existe)
-LOCAL_DEST = Path(r"/home/robiotec/Documents/Entrenamientos/Training/data/dataminio")
+LOCAL_DEST = Path(r"/home/robiotec/Documents/Entrenamientos/Training/data/raw/minio_full")
 
 MAX_WORKERS = 24
 

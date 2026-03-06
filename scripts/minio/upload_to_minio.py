@@ -9,7 +9,7 @@ ACCESS_KEY = "robiotec"
 SECRET_KEY = "robiotec123"
 BUCKET = "smartsorter-v2"
 
-PARENT_FOLDER = Path(r"C:\Users\yuchu\Downloads\data")  # carpeta padre con chuteX, chuteX1, ...
+PARENT_FOLDER = Path(r"/home/robiotec/Documents/Entrenamientos/Training/data/raw/minio_full")
 
 LOCAL_TO_MINIO = {
     "Caja": "cajas",

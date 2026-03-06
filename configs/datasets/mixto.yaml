@@ -1,0 +1,7 @@
+train: data/splits/2026-03-06_legacy_dataset_v2/mixto/train
+val: data/splits/2026-03-06_legacy_dataset_v2/mixto/val
+test: data/splits/2026-03-06_legacy_dataset_v2/mixto/test
+# Number of classes
+nc: 2
+# Class names
+names: ['Caja', 'Veta'] # class 0=Caja, class 1=Veta

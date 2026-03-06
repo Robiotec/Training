@@ -1,8 +1,0 @@
-train: data/DS_TWO_CLASS/train
-val: data/DS_TWO_CLASS/val
-test: data/DS_TWO_CLASS/test
-# Number of classes
-nc: 2
-# Class names
-#names: ['caja', 'veta'] # 0->caja, 1->veta
-names: ['caja', 'veta'] # 0->caja, 1->veta
