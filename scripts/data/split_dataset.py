@@ -9,7 +9,7 @@ from typing import List, Tuple, Optional
 
 IMG_EXTS = {".jpg", ".jpeg", ".png", ".bmp", ".webp", ".tif", ".tiff"}
 PROJECT_ROOT = Path(__file__).resolve().parents[2]
-DATASET_CONFIG_DIR = PROJECT_ROOT / "configs" / "datasets"
+DATASET_CONFIG_DIR = PROJECT_ROOT / "configs"
 
 
 @dataclass(frozen=True)

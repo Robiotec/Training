@@ -7,16 +7,16 @@
 - `data/splits/`: versioned datasets with `train/val/test`.
 
 ### Dataset Configs
-- `configs/datasets/vetas.yaml`
-- `configs/datasets/caja.yaml`
-- `configs/datasets/mixto.yaml` (`Caja=0`, `Veta=1`)
+- `configs/vetas.yaml`
+- `configs/caja.yaml`
+- `configs/mixto.yaml` (`Caja=0`, `Veta=1`)
 
 ### Scripts
 - `scripts/minio/download_from_minio.py`: download/sync from MinIO to `data/raw/minio_full/`.
 - `scripts/minio/upload_to_minio.py`: upload local datasets to MinIO.
 - `scripts/data/split_dataset.py`: generate YOLO datasets in `train/val/test`.
-  - Also updates `configs/datasets/caja.yaml` and
-    `configs/datasets/vetas.yaml` and `configs/datasets/mixto.yaml`
+  - Also updates `configs/caja.yaml` and
+    `configs/vetas.yaml` and `configs/mixto.yaml`
     train/val/test paths
     to the generated split (disable with `--no-update-training-configs`).
 - `scripts/data/validate_labels_images.py`: visual validation with FiftyOne.

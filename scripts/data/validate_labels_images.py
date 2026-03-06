@@ -4,7 +4,7 @@ import argparse
 from pathlib import Path
 
 DEFAULT_DATASET_DIR = Path("/home/robiotec/Documents/Entrenamientos/Training")
-DEFAULT_YAML_PATH = Path("/home/robiotec/Documents/Entrenamientos/Training/configs/datasets/vetas.yaml")
+DEFAULT_YAML_PATH = Path("/home/robiotec/Documents/Entrenamientos/Training/configs/vetas.yaml")
 
 parser = argparse.ArgumentParser(description="Validar un split YOLO a la vez en FiftyOne")
 parser.add_argument(
