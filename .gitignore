@@ -1,11 +1,63 @@
-# Python-generated files
+# -----------------------------
+# Python
+# -----------------------------
 __pycache__/
-*.py[oc]
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Environments
+.venv/
+venv/
+.env
+.env.*
+
+# Build artifacts
 build/
 dist/
 wheels/
-*.egg-info
+*.egg-info/
 
-# Virtual environments
-.venv
-.txt
+# -----------------------------
+# Jupyter
+# -----------------------------
+.ipynb_checkpoints/
+
+# -----------------------------
+# OS / Editor
+# -----------------------------
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# -----------------------------
+# ML / Training artifacts
+# -----------------------------
+# Raw/curated/split datasets (very large)
+data/raw/
+data/curated/
+data/splits/
+
+# Training outputs
+result/
+
+# Large model files
+*.pt
+*.pth
+*.onnx
+*.engine
+*.ckpt
+*.safetensors
+
+# TensorBoard / logs
+runs/
+logs/
+events.out.tfevents*
+
+# Local sync/cache files
+*.cache
+.minio_sync_state.json
+
