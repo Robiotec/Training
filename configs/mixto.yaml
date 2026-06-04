@@ -1,6 +1,6 @@
-train: data/splits/2026-03-06_legacy_dataset_v2/mixto/train
-val: data/splits/2026-03-06_legacy_dataset_v2/mixto/val
-test: data/splits/2026-03-06_legacy_dataset_v2/mixto/test
+train: /home/robiotec/TENGEL/dataset_split_caja_veta/train
+val: /home/robiotec/TENGEL/dataset_split_caja_veta/val
+test: /home/robiotec/TENGEL/dataset_split_caja_veta/test
 # Number of classes
 nc: 2
 # Class names

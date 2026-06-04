@@ -1,7 +1,8 @@
-train: data/splits/2026-03-06_legacy_dataset_v2/solo_cajas/train
-val: data/splits/2026-03-06_legacy_dataset_v2/solo_cajas/val
-test: data/splits/2026-03-06_legacy_dataset_v2/solo_cajas/test
+path: /home/robiotec/Documents/Entrenamientos/Training/data/splits/SPLIT_M17_V1
+train: train/images
+val: val/images
+test: test/images
 # Number of classes
 nc: 1
 # Class names
-names: ['Caja'] # class 0
+names: ['caja']  
