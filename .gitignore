@@ -43,6 +43,10 @@ data/splits/
 
 # Training outputs
 result/
+result_tenguel/
+
+# Local Codex workspace files
+.codex
 
 # Large model files
 *.pt
@@ -60,4 +64,3 @@ events.out.tfevents*
 # Local sync/cache files
 *.cache
 .minio_sync_state.json
-
