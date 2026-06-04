@@ -40,6 +40,8 @@ Thumbs.db
 data/raw/
 data/curated/
 data/splits/
+data/BONANZA/
+data/TENGEL/*/
 
 # Training outputs
 result/
