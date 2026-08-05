@@ -1,7 +1,8 @@
-train: /home/robiotec/TENGEL/dataset_split_caja_veta/train
-val: /home/robiotec/TENGEL/dataset_split_caja_veta/val
-test: /home/robiotec/TENGEL/dataset_split_caja_veta/test
+train: /home/robiotec/Documents/Entrenamientos/Training/data/BONANZA/splits/BNZ_SPLIT_4CLASS_V1/train
+val: /home/robiotec/Documents/Entrenamientos/Training/data/BONANZA/splits/BNZ_SPLIT_4CLASS_V1/val
+test: /home/robiotec/Documents/Entrenamientos/Training/data/BONANZA/splits/BNZ_SPLIT_4CLASS_V1/test
 # Number of classes
-nc: 2
+nc: 4
 # Class names
-names: ['Caja', 'Veta'] # class 0=Caja, class 1=Veta
+names: ['caja', 'caja_cachito', 'veta', 'veta_cachito'] # class 0=Caja, class 1=Caja_Cachito, class 2=Veta, class 3=Veta_Cachito
+

@@ -1,8 +1,9 @@
-path: /home/robiotec/Documents/Entrenamientos/Training/data/splits/SPLIT_M17_V1
+path: /home/robiotec/Documents/Entrenamientos/Training/data/TENGEL/M93/split/m93_split_35mm_partial_representative_v1
 train: train/images
 val: val/images
 test: test/images
-# Number of classes
-nc: 1
-# Class names
-names: ['caja']  
+
+nc: 2
+names:
+  0: caja
+  1: caja_cachito
