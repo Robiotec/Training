@@ -2,5 +2,5 @@
     remote = minio_tengel
     site_cache_dir = .dvc/tmp/site_cache
 ['remote "minio_tengel"']
-    url = s3://tengel/dvc
-    endpointurl = http://192.168.30.200:9000
+    url = s3://smart-sorter-dvc/training
+    endpointurl = http://192.168.30.135:9000

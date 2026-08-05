@@ -1,0 +1,6 @@
+outs:
+- md5: 42940fc6cc508ee463cd3f369f54cba3.dir
+  size: 36641376
+  nfiles: 88
+  hash: md5
+  path: 4_class

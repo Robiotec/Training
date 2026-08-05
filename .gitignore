@@ -40,8 +40,16 @@ Thumbs.db
 data/raw/
 data/curated/
 data/splits/
-data/BONANZA/
+data/BONANZA/*
+!data/BONANZA/35mm/
+data/BONANZA/35mm/*
+!data/BONANZA/35mm/4_class/
 data/TENGEL/*/
+!data/TENGEL/M93/
+data/TENGEL/M93/*
+!data/TENGEL/M93/35mm/
+data/TENGEL/M93/35mm/*
+!data/TENGEL/M93/35mm/4_class/
 
 # Training outputs
 result/
